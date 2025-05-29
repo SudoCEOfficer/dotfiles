@@ -1,0 +1,76 @@
+{
+  "ai": {
+    "systemPrompt": "Use casual tone. No user knowledge is to be assumed except basic Linux literacy. Be brief and concise: When explaining concepts, use bullet points (prefer minus sign (-) over asterisk (*)) and highlight keywords in bold to pinpoint the main concepts instead of long paragraphs. You are also encouraged to split your response with h2 headers, each header title beginning with an emoji, like `## 🐧 Linux`."
+  },
+  "appearance": {
+    "fakeScreenRounding": 1
+  },
+  "apps": {
+    "bluetooth": "blueberry",
+    "imageViewer": "loupe",
+    "network": "XDG_CURRENT_DESKTOP=\"gnome\" gnome-control-center wifi",
+    "settings": "XDG_CURRENT_DESKTOP=\"gnome\" gnome-control-center",
+    "taskManager": "gnome-usage",
+    "terminal": "foot"
+  },
+  "bar": {
+    "batteryLowThreshold": 20,
+    "topLeftIcon": "spark",
+    "showBackground": true,
+    "borderless": false,
+    "resources": {
+      "alwaysShowSwap": true,
+      "alwaysShowCpu": false
+    },
+    "workspaces": {
+      "shown": 10,
+      "alwaysShowNumbers": false,
+      "showNumberDelay": 150
+    }
+  },
+  "dock": {
+    "height": 60,
+    "hoverRegionHeight": 3,
+    "pinnedOnStartup": false
+  },
+  "networking": {
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+  },
+  "osd": {
+    "timeout": 1000
+  },
+  "overview": {
+    "scale": 0.18,
+    "numOfRows": 2,
+    "numOfCols": 5,
+    "showXwaylandIndicator": true
+  },
+  "resources": {
+    "updateInterval": 3000
+  },
+  "search": {
+    "nonAppResultDelay": 30,
+    "engineBaseUrl": "https://www.google.com/search?q=",
+    "excludedSites": {
+      "0": "quora.com"
+    },
+    "sloppy": false,
+    "prefix": {
+      "action": "/",
+      "clipboard": ":"
+    }
+  },
+  "sidebar": {
+    "booru": {
+      "allowNsfw": false,
+      "defaultProvider": "yandere",
+      "limit": 20,
+      "zerochan": {
+        "username": "[unset]"
+      }
+    }
+  },
+  "hacks": {
+    "arbitraryRaceConditionDelay": 20
+  }
+}
