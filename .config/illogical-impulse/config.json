@@ -6,12 +6,12 @@
     "fakeScreenRounding": 1
   },
   "apps": {
-    "bluetooth": "blueberry",
+    "bluetooth": "better-control -b",
     "imageViewer": "loupe",
-    "network": "XDG_CURRENT_DESKTOP=\"gnome\" gnome-control-center wifi",
-    "settings": "XDG_CURRENT_DESKTOP=\"gnome\" gnome-control-center",
-    "taskManager": "gnome-usage",
-    "terminal": "foot"
+    "network": "better-control -w",
+    "settings": "better-control",
+    "taskManager": "missioncenter",
+    "terminal": "ghostty"
   },
   "bar": {
     "batteryLowThreshold": 20,
@@ -50,7 +50,7 @@
   },
   "search": {
     "nonAppResultDelay": 30,
-    "engineBaseUrl": "https://www.google.com/search?q=",
+    "engineBaseUrl": "https://search.brave.com/search?q=",
     "excludedSites": {
       "0": "quora.com"
     },
@@ -63,7 +63,7 @@
   "sidebar": {
     "booru": {
       "allowNsfw": false,
-      "defaultProvider": "yandere",
+      "defaultProvider": "konachan",
       "limit": 20,
       "zerochan": {
         "username": "[unset]"
